@@ -1,5 +1,5 @@
 import { ContactProps } from "./contact";
-export { getStaticProps, getStaticPaths } from "./contact.service";
+export { getServerSideProps } from "./contact.service";
 
 const Contact = (props: ContactProps) => {
   const { contact } = props;
